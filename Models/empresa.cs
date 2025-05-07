@@ -9,7 +9,7 @@ namespace TP3_Arias.Models
             catalogo = new List<disco>
             {
                 // Álbum debut bajo Big Machine Records
-                new disco(0, "Taylor Swift", "Taylor Swift", "Big Machine Records", "Country", "taylor_swift.jfif", new List<string>()
+                new disco(0, "Taylor Swift", "Taylor Swift", "Big Machine Records", "Country", "taylor_swift.webp", new List<string>()
                 {
                     "Tim McGraw",
                     "Picture To Burn",
@@ -143,7 +143,7 @@ namespace TP3_Arias.Models
                     "Is It Over Now? (Taylor's Version) (From The Vault)"
                 }),
                 // Reputation bajo Big Machine Records
-                new disco(5, "Reputation", "Taylor Swift", "Big Machine Records", "Pop", "reputation.jfif", new List<string>()
+                new disco(5, "Reputation", "Taylor Swift", "Big Machine Records", "Pop", "reputation.webp", new List<string>()
                 {
                     "...Ready For It?",
                     "End Game",
@@ -162,7 +162,7 @@ namespace TP3_Arias.Models
                     "New Year's Day"
                 }),
                 // Lover bajo Republic Records
-                new disco(6, "Lover", "Taylor Swift", "Republic Records", "Pop", "lover.jfif", new List<string>()
+                new disco(6, "Lover", "Taylor Swift", "Republic Records", "Pop", "lover.webp", new List<string>()
                 {
                     "I Forgot That You Existed",
                     "Cruel Summer",
@@ -184,7 +184,7 @@ namespace TP3_Arias.Models
                     "Daylight"
                 }),
                 // Folklore bajo Republic Records
-                new disco(7, "Folklore", "Taylor Swift", "Republic Records", "Indie Folk", "folklore.jfif", new List<string>()
+                new disco(7, "Folklore", "Taylor Swift", "Republic Records", "Indie Folk", "folklore.webp", new List<string>()
                 {
                     "the 1",
                     "cardigan",
@@ -270,7 +270,7 @@ namespace TP3_Arias.Models
                     "Clara Bow"
                 }),
                 // The Tortured Poets Department The Anthology bajo Republic Records
-                new disco(11, "The Tortured Poets Department The Anthology", "Taylor Swift", "Republic Records", "Pop", "ttpd_anthology.jfif", new List<string>()
+                new disco(11, "The Tortured Poets Department The Anthology", "Taylor Swift", "Republic Records", "Pop", "ttpd_anthology.webp", new List<string>()
                 {
                     "Fortnight (feat. Post Malone)",
                     "The Tortured Poets Department",
