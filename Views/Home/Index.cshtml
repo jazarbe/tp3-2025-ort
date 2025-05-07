@@ -1,8 +1,13 @@
 ﻿@{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Music Store - Home";
 }
 
-<div>
-    <h1>Index</h1>
-    <p>Bienvenidos al sitio web de NombreProyecto</p>
-</div>
+<h1>Music Store (Taylor's Version)</h1>
+<p>Esta es la discografía de Taylor Swift</p>
+@foreach (disco disco in ViewBag.catalogo)
+{
+     <div>
+        <img src = "/images/@disco.foto">
+        <a href = '@Url.Action("infoAlbum", "Home", new {id=disco.id})'>@disco.nombre</a>
+     </div>
+}
