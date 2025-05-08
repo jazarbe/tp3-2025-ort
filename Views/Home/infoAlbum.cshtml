@@ -1,15 +1,15 @@
 @{
-    ViewData["Title"] = @ViewBag.disco.nombre;
+    ViewData["Title"] = @ViewBag.disco.nombre + "info";
 }
 
 <a href = '@Url.Action("Index", "Home")'>Home</a>
-<section>
-    <h1>Music Store (Taylor's Version)</h2>
-    <img src = "/images/@ViewBag.disco.foto">
-    <h5>@ViewBag.disco.genero</h5>
-    <h5>@ViewBag.disco.productor</h5>
+    <h1>@ViewBag.disco.nombre</h2>
+    <h5>Género: @ViewBag.disco.genero</h5>
+    <h5>Productora: @ViewBag.disco.productor</h5>
+    <img class="imgInfo" src = "/images/@ViewBag.disco.foto">
+<ol>
     @foreach (string cancion in @ViewBag.disco.canciones)
     {
-        <p>@cancion</p>
+        <li>@cancion</li>
     }
-</section>
+</ol>

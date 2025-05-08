@@ -1,9 +1,10 @@
 ﻿@{
     ViewData["Title"] = "Music Store - Home";
 }
-
+<a href = '@Url.Action("Index", "Home")'>Home</a>
 <h1>Music Store (Taylor's Version)</h1>
 <p>Esta es la discografía de Taylor Swift</p>
+<section>
 @foreach (disco disco in ViewBag.catalogo)
 {
      <div>
@@ -11,3 +12,4 @@
         <a href = '@Url.Action("infoAlbum", "Home", new {id=disco.id})'>@disco.nombre</a>
      </div>
 }
+</section>
