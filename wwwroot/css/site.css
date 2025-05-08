@@ -1,5 +1,4 @@
 html {
-  font-size: 14px;
   min-height: 100%;
   font-family: 'Trirong';
   /* https://coolors.co/palette/31221c-e97d63-ede4d3-665449-f1bcb8-faf9e7 */
@@ -22,9 +21,15 @@ body {
 h1{
   color: var(--color4);
   margin-bottom: 0.1%;
+  margin-top: 0px;
 }
-p, h5, li{
+p, li{
   color: var(--color4);
+  font-size: 1.1rem;
+  margin-top: 0px;
+}
+h5{
+  color: var(--color3);
   font-size: 1.1rem;
 }
 .imgInfo{
